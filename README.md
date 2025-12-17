@@ -7,6 +7,7 @@ This repository demonstrates how to set up **quality gates** in a JavaScript pro
 The project includes a CI workflow that runs on every push and pull request to ensure code quality before any further steps (such as UI or API tests).
 
 The quality gate consists of:
+
 - **Prettier** — checks code formatting
 - **ESLint** — checks code quality and potential errors
 
@@ -30,3 +31,4 @@ The GitHub Actions workflow is defined in:
     - ESLint (flat config)
     - GitHub Actions
 
+```
